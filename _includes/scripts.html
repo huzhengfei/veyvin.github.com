@@ -1,4 +1,4 @@
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js">
 <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 {% if site.google_analytics %}
@@ -13,6 +13,6 @@
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
 </script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js">
+
 <script>
 {% if page.comments %}{% include disqus_comments.html %}{% endif %}
