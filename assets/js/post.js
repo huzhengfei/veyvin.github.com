@@ -200,7 +200,7 @@ $(document).ready(function(){
         }
     })();
 
-    $.getScript('/style/js/prettify/prettify.js',function(){
+    $.getScript('/assets/js/prettify/prettify.js',function(){
         prettyPrint();
     });
 
@@ -209,7 +209,7 @@ $(document).ready(function(){
     }
 
     if(/css3-animation/.test(location.href)){
-        $("head").append("<link rel='stylesheet' type='text/css' href='/style/css/css3-ani.css'/>");
-        $.getScript('/style/js/css3-ani.js',function(){});
+        $("head").append("<link rel='stylesheet' type='text/css' href='/assets/css/css3-ani.css'/>");
+        $.getScript('/assets/js/css3-ani.js',function(){});
     }
 });
