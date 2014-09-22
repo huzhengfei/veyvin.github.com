@@ -13,5 +13,6 @@
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
 </script>
-{% endif %}
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js">
+<script>
 {% if page.comments %}{% include disqus_comments.html %}{% endif %}
