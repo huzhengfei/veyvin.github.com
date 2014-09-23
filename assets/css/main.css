@@ -2008,7 +2008,7 @@ All this is done for any sub-level being entered.
 .dl-menuwrapper button:hover,
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
-  background: #222222;
+  background: rgba(170, 170, 170, 0.46);
 }
 
 .dl-menu li {
