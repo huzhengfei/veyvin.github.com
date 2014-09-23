@@ -200,16 +200,5 @@ $(document).ready(function(){
         }
     })();
 
-    $.getScript('/assets/js/prettify.js',function(){
-        prettyPrint();
-    });
-
-    if(/\#comment/.test(location.hash)){
-        $('#disqus_container .comment').trigger('click');
-    }
-
-    if(/css3-animation/.test(location.href)){
-        $("head").append("<link rel='stylesheet' type='text/css' href='/assets/css/css3-ani.css'/>");
-        $.getScript('/assets/js/css3-ani.js',function(){});
-    }
+    
 });
