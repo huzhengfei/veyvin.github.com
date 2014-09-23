@@ -90,8 +90,7 @@
 
 <script src="/assets/js/post.js" type="text/javascript"></script>
 
-    {% if site.disqus_shortname and page.comments %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
-    {% if site.related_posts.size %}
+
     <div class="read-more">
       {% for post in site.related_posts limit:1 %}
         <div class="read-more-header">
