@@ -10,8 +10,8 @@ url:              http://veyvin.github.io
 owner:
   name:           VEYVIN
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  bio:            "胡言乱语的博客 本人是游戏开发者 热爱编程 ."
+  email:          511388002@qq.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
@@ -23,7 +23,7 @@ owner:
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    117298063016749744449
 
 # Background image to be tiled on all pages
 background: 
